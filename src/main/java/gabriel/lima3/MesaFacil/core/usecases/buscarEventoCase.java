@@ -5,6 +5,6 @@ import gabriel.lima3.MesaFacil.core.entities.Evento;
 public interface buscarEventoCase {
 
 
-    public Evento execute(Evento evento);
+    public Evento find(Evento evento);
 
 }

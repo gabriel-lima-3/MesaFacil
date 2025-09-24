@@ -6,11 +6,10 @@ public record Evento(
         Long id,
         String nome,
         String descricao,
-        //Enum
         TipoEvento tipoEvento,
         LocalDate inicio,
         LocalDate fim,
-        String mesa,
+        Integer mesa,
         String identificador,
         Integer capacidade
 ) {
