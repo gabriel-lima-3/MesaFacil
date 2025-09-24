@@ -22,15 +22,12 @@ public class EventoEntity {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-
     private String nome;
     private String descricao;
     private TipoEvento tipoEvento;
-
     private LocalDate inicio;
     private LocalDate fim;
-
-    private String mesa;
+    private Integer mesa;
     private String identificador;
     private Integer capacidade;
 
