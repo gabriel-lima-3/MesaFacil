@@ -1,6 +1,7 @@
 package gabriel.lima3.MesaFacil.infrastructure.persistence;
 
 
+import gabriel.lima3.MesaFacil.infrastructure.dto.EventoDto;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
@@ -9,7 +10,7 @@ public class EventoController {
 
 
     @PostMapping("criarevento")
-    public String criarEvento(@RequestBody EventoEntity evento) {
+    public String criarEvento(@RequestBody EventoDto eventodto) {
 
         return "";
 
